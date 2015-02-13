@@ -1,5 +1,24 @@
 
 
+var work = {"jobs":[{"employer":"Dikal Ltd.","title":"Pc network Technician","location":"Beer Sheba","dates":1994,"description":" 1st and 2nd level PC's,servers ,network support company customers"},
+    {"employer":"Eldor Ltd.","title":"Network System support engineer","location":"Tel Aviv","dates":1996,"description":" Bank Hapoalim system network support team , later part of out sourcing team at client customers system network administrator "},
+    {"employer":"SCII","title":"Network System engineer consultant","location":"Paris","dates":1999,"description":"Part of system network admins team at GAN Insurance"},
+    {"employer":"Citi Group France","title":"IT Manager","location":"Paris","dates":2000,"description":"Incharge of all Citigroup France information technology and infrastructure"},
+    {"employer":"Dalet ltd.","title":"Head of IT","location":"Beer Sheba","dates":2004,"description":"Incharge of all Dalet word wide information technology and infrastructure"}
+]};
+
+var projects = [{"title":"Active directory 2000 implementation ","dates":2000,"description":"Planing & migrating implementation of company MS NT4 to MS active directory 2000"},
+    {"title":"Security base line","dates":2000,"description":"planning and integrating and applying company security policy"},
+    {"title":"Establish and Securing 3rd party access","dates":2001,"description":"planning and integrating site to site vpn tunnel and security policy using Check Point firewalls"},
+    {"title":"IT Helpdesk establishment ","dates":2009,"description":"Building helpdesk procedure and sla's , establishing company help desk portal"},
+    {"title":"Firewall role out","dates":2010,"description":"Pfsense 2.x firewall deployment across all company offices , site to site vpn"},
+    {"title":"Network system monitoring","dates":2011,"description":"Building monitoring platform for monitoring all company aspects"},
+    {"title":"Office VOIP deployment","dates":2013,"description":"Elastix distro VOIP deployment at company offices"},
+    {"title":"Virtualization platform","dates":2014,"description":"Building visualization platform for qa environment "},
+    {"title":"Security center","dates":2014,"description":"Building company central SEIM Security Event and Incident Management to centralize all security event across company"}
+];
+
+
 var currentwork = {"position":"Head of IT","Employer":"Dalet Ltd.","datess":"10","location":"BeerSheba"};
 var education ={"schools":[{"name":"Technological College of Beersheba","dates":"1994","location":"Beersheba","degree":"PC Network technician state diploma"},
     {"name":"Self taught","dates":"1996","location":"Tel Aviv","degree":"MCP's NT4"},
@@ -16,6 +35,7 @@ var education ={"schools":[{"name":"Technological College of Beersheba","dates":
         {"title":"Python 3 Essential Training","dates":"2012","location":"Beersheba","url":"http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html"}
 
     ]};
+
 
 var skills = ["system","networking","security","virtualization","scripting"];
 var bio = {"name":"Tal Bar-Or","role":"IT Specialist","contact_info":"tbaror@gmail.com","personal_pic":"images/tal_P.jpg",
